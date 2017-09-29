@@ -25,7 +25,7 @@ def changeDir(remoteFile):
     else:
         print("You have change to the '%s' folder" %remoteFile)
 
-
+#write the local file to target dir in ftp server
 def uploadFiles(remoteFile,filename):
     changeDir(remoteFile)
     try:
@@ -37,7 +37,7 @@ def uploadFiles(remoteFile,filename):
         print("The file %s has been downloaded in %s." %(filename,remoteFile))
 
 
-
+#uoload the local direcotry to ftp server
 def uploadDir(remoteFile,filename,localFile):
     changeDir(remoteFile)
     try:
