@@ -64,9 +64,9 @@ def uploadDir(remoteFile,filename,localFile):
             uploadDir(remoteFile, item, localFile)
 
 if __name__=="__main__":
-    host = "121.14.34.60"
-    username = "sh_modernmedia"
-    password = "ygbnju8642"
+    host = "your host ip"
+    username = "your account"
+    password = "your ftp server password"
     filename = input("type a filename:")
     localFile = "c:\data"
     remoteFile = "/event"
